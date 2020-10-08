@@ -34,7 +34,7 @@ The database is shared out via SMB/CIFS Windows sharing, and needs to be configu
 ``ls /media/data``  
 This should output the list of files and directories of the data folder.
 
-### Install VirtualBox and setup Windows 10
+## Install VirtualBox and setup Windows 10
 
 This is not a tutorial on how to install and configure the initial setup for VirtualBox. Once you have this configured and setup with Windows 10, you can continue. Make sure you also install the Guest additions and the vbox extension pack.
 
@@ -55,7 +55,7 @@ Now we should be able to install DEXIS as normal. In the Virtual Machine Go thro
 
 DEXIS should be able to view xrays like normal.
 
-### Enable USB Passthrough to access the hardware
+## Enable USB Passthrough to access the hardware
 
 Make sure the VM is powered off prior to making these changes.
 
